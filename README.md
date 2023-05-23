@@ -93,7 +93,9 @@ This method transform dictionary into tabular data so user can see their summary
 This method applies discount to users transaction based on the predetermined rules. 
 
 If the product total price > 500000, 7% discount is applied
+
 If the product total price > 300000, 6% discount is applied
+
 If the product total price > 200000, 5% discount is applied
 
 All products within the transaction will be transferred to postgresql database using psycopg2 and sql alchemy library. In this code, connection strings are hidden so make sure to put the information in this format 
