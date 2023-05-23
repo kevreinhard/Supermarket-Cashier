@@ -11,6 +11,7 @@ The Cashier Program is a system for self-service cashiers that enables them to i
 
 ### Code Explanation
 #### 1. Importing Libraries
-                                                          !['Importing Libraries'](Docs/1.png)
+
+!['Importing Libraries'](Docs/1.png)
 
 These codes import necessary libraries to make the coding experience easier. Datetime library enables users to generate current date and time of the transaction. Pandas is used to make data tabulation easier. Psycopg2, sqlalchemy and urllib.parse are tools to support data transfer from python to database
