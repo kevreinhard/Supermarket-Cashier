@@ -88,8 +88,6 @@ This method transform dictionary into tabular data so user can see their summary
 
 #### 6. Checking Out
 
-!['Checking_Out'](Docs/18.png)
-
 This method applies discount to users transaction based on the predetermined rules. 
 
 If the product total price > 500000, 7% discount is applied
