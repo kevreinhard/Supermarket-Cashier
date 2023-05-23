@@ -46,5 +46,68 @@ Users can input what product to be changed and the new product name in this meth
 !['update_product_name2'](Docs/7.png)
 
 
-update_product_qty
+##### update_product_qty
+
+!['update_product_qty'](Docs/8.png)
+
+Users can input the product which quanitites need to be updated and the expected quantity
+
+!['update_product_qty2'](Docs/9.png)
+
+##### update_product_price
+
+!['update_product_price'](Docs/10.png)
+
+Users can input the product and the new price update
+
+!['update_product_price2'](Docs/11.png)
+
+##### delete_product
+
+!['delete_product'](Docs/12.png)
+
+Users can delete one product at a time with this method from the transaction list
+
+!['delete_product2'](Docs/13.png)
+
+##### reset_transaction
+
+!['reset_transaction'](Docs/14.png)
+
+Users can delete whole product in transaction and start over. Number of total transaction will be reduced by 1 since there are less number of transaction now
+
+!['reset_transaction2'](Docs/15.png)
+
+#### 5. Checking Order
+
+!['checking_order'](Docs/16.png)
+
+This method transform dictionary into tabular data so user can see their summary of transaction better. 
+
+!['checking_order2'](Docs/17.png)
+
+#### 6. Checking Out
+
+!['Checking_Out'](Docs/18.png)
+
+This method applies discount to users transaction based on the predetermined rules. 
+
+If the product total price > 500000, 7% discount is applied
+If the product total price > 300000, 6% discount is applied
+If the product total price > 200000, 5% discount is applied
+
+All products within the transaction will be transferred to postgresql database using psycopg2 and sql alchemy library. In this code, connection strings are hidden so make sure to put the information in this format 
+
+"postgresql://[user[:password]@][netloc][:port][/dbname]"
+
+This is the table which has been inputted to pgAdmin 4
+
+!['pgadmin4'](Docs/19.png)
+
+
+
+
+
+
+
 
